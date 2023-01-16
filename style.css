@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    font-family: 'Kenoky';
+}
+.loader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 50;
+    background: #f5e0bb;
+}
+#percent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    color: white;    
+    font-size: 150px;
+    font-weight: lighter;
+    font-style: italic;
+    mix-blend-mode: difference;
+}
+#bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+#barconfirm{
+    width: 0%;
+    height: 100vh;
+    background: #1b1b1b;
+}
+.main-page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #1b1b1b;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+    z-index: 50;
+}
+.content h1{
+    font-size: 100px;
+    font-family: 'Monument';
+    text-transform: uppercase;
+    font-weight: lighter;
+}
